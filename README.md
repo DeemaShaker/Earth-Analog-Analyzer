@@ -19,7 +19,7 @@ The program is designed to compare three measurements:
 
 - Surface temperature (°C)
 - Terrain slope (degrees)
-- Local relief (meters)
+- Elevation range (meters)
 
 It reads the data from text files, checks which measurements are available, and compares the matching ranges. The results for Mars and the Moon are calculated separately.
 
@@ -87,9 +87,9 @@ Slope data was available for Atacama, Hawaii, and Sahara. No values were availab
 
 Source: [NASADEM Slope and Curvation Global 1 arc second V001](https://lpdaac.usgs.gov/products/nasadem_scv001/)
 
-### Local Relief
+### Elevation range
 
-Local relief values are not included in the current dataset. NASADEM elevation data was considered, but a consistent local-relief measurement was not calculated for all selected locations.
+Elevation range values are not included in the current dataset. NASADEM elevation data was considered, but a consistent local-relief measurement was not calculated for all selected locations.
 
 Absolute elevation was not used as a replacement, since it describes a different terrain measurement.
 
@@ -140,14 +140,14 @@ At this stage:
 
 This means that **surface temperature is currently the only criterion that can be compared on both sides** for the selected Mars and Moon regions.
 
-Slope and local relief are skipped by the program until suitable reference data is added.
+Slope and Elevation range are skipped by the program until suitable reference data is added.
 
 ## Limitations
 
 - The current results are based on temperature ranges only, so the comparison is limited.
 - Earth MODIS surface temperature, Mars rover ground temperature, and lunar Diviner surface temperature come from different instruments and observation methods.
 - Slope measurements depend on the resolution of the dataset and the area used for extraction.
-- Absolute elevation and local relief are different measurements and should not be treated as interchangeable.
+- Absolute elevation and Elevation range are different measurements and should not be treated as interchangeable.
 - Minimum and maximum values can be affected by unusual observations.
 - Missing measurements are excluded from the calculation, not treated as zero.
 - The IoU score measures range overlap only. It is not a probability and does not prove that two locations are scientifically equivalent.
