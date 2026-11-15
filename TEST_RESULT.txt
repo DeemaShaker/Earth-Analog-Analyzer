@@ -1,0 +1,20 @@
+Earth_Analog_Analyzer>Earth_Analog_Analyzer.exe --test
+PASS: Same range
+PASS: Half overlap
+PASS: One range inside another
+PASS: No overlap
+PASS: Ranges that only touch
+PASS: Missing pair is kept as missing
+PASS: Half-filled pair is rejected
+PASS: Higher IoU comes first
+PASS: Temperature below absolute zero is rejected
+PASS: Reversed range is rejected
+PASS: Equal minimum and maximum are rejected
+PASS: Missing slope is left out of the average
+PASS: Missing slope is not counted
+PASS: No overlap is scored as zero
+PASS: No overlap still counts as one criterion
+PASS: A valid slope still counts when temperature is invalid
+PASS: Invalid temperature is not scored as zero overlap
+
+Tests passed: 17 | Failed: 0
