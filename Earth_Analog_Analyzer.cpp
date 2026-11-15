@@ -33,7 +33,7 @@ const int MIN_CRITERIA_TO_RANK = 1;
 const array<string, CRITERIA_COUNT> criteriaNames = {
     "Surface temperature (C)",
     "Terrain slope (degrees)",
-    "Local relief (meters)"
+    "Elevation range (meters)"
 };
 
 const array<double, CRITERIA_COUNT> allowedMin = {
@@ -597,7 +597,7 @@ int main(int argc, char* argv[]) {
     // The supplied Mars and Moon files currently have temperature only.
     if (temperatureCompared && !slopeOrReliefCompared) {
         cout << "\nOne last note: temperature is the only measurement available on both\n";
-        cout << "sides for these reference regions. Slope and local relief are missing\n";
+        cout << "sides for these reference regions. Slope and elevation range are missing\n";
         cout << "from the Mars and Moon data, so the order above is temperature only.\n";
     }
 
