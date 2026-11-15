@@ -1,0 +1,6 @@
+name;source;temp_min;temp_max;slope_min;slope_max;relief_min;relief_max
+Atacama;NASA MODIS MOD11A2.061 2025 and NASADEM Slope V001;1.97;39.61;0.01;60.36;?;?
+Antarctica;NASA MODIS MOD11A2.061 2025;-47.99;0.71;?;?;?;?
+Hawaii;NASA MODIS MOD11A2.061 2025 and NASADEM Slope V001;0.05;38.47;0.02;71.55;?;?
+Iceland;NASA MODIS MOD11A2.061 2025;-17.77;21.45;?;?;?;?
+Sahara;NASA MODIS MOD11A2.061 2025 and NASADEM Slope V001;8.19;41.29;0.01;58.96;?;?

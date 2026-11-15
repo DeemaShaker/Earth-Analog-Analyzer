@@ -1,0 +1,5 @@
+# Reference ranges for selected regions on Mars and the Moon.
+# Missing measurements are written as ?;? and are skipped by the program.
+target;region;source;temp_min;temp_max;slope_min;slope_max;relief_min;relief_max
+Mars;Gale Crater - Curiosity landing region;MSL REMS ground-temperature measurements reported by Martinez et al. 2016; -100.15;15.85;?;?;?;?
+Moon;Lacus Mortis - Astrobotic Mission One landing ellipse;Diviner LRO regional temperature study by Williams et al. 2022;-185.15;85.85;?;?;?;?

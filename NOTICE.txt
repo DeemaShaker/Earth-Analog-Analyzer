@@ -1,0 +1,13 @@
+
+Earth Analog Analyzer
+
+Copyright 2026 Deema Shaker
+
+This project was created by Deema Shaker
+for the NASA Space Apps Challenge 2026.
+
+The project uses publicly available NASA datasets
+and scientific references, which are credited
+in the README.md file.
+
+Licensed under the Apache License, Version 2.0.
