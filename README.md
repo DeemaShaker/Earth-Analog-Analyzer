@@ -27,7 +27,7 @@ This is a preliminary comparison tool. It does not prove that an Earth location 
 
 ## Project Files
 
-- `Earth_Analog_Analyzer_Final.cpp` — the main C++ source code.
+- `Earth_Analog_Analyzer.cpp` — the main C++ source code.
 - `earth_data.txt` — data for the selected Earth locations.
 - `reference_data.txt` — reference data for Mars and the Moon.
 - `README.md` — project information, method, and data sources.
@@ -161,7 +161,7 @@ The program requires a C++17 compiler.
 Compile the source code using:
 
 ```bash
-g++ -std=c++17 -O2 Earth_Analog_Analyzer_Final.cpp -o analyzer
+g++ -std=c++17 -O2 Earth_Analog_Analyzer.cpp -o analyzer
 ```
 
 Run the program from the folder containing the two data files:
@@ -222,8 +222,6 @@ The tests cover:
 All 17 tests passed successfully.
 
 **Test result: 17 passed, 0 failed.** 
-analyzer.exe
-analyzer.exe --test
 
 ## License
 
